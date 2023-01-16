@@ -1,10 +1,10 @@
-# Generate ReadME.md
+# Professional README generator
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
-Purpose of this project is to generate a well written README.md for professional use
+The purpose of this generator is to prompt the developer(s) a series of questions for which generates a high-quality readme. Questions that the application asks are the project title, description, table of contents, installation, usage, contributing, tests, license, email, and github username. Once the user provides the answers respectively, a high quality readme will autogenerate. 
 
 ## Table of Contents
 
@@ -17,24 +17,19 @@ Purpose of this project is to generate a well written README.md for professional
 
 ## Installation
 
-To install, please follow steps below:
-- npm install
+- `npm install`
 
 ## Usage
 
-To run, please follow steps below:
-- node index.js
+- `npm index.js`
 
 ## Contributing
 
-Please email me via my email below!
+Please email me via the email below!
 
 ## Tests
 
-To run tests, run following command:
-- `npm run test`
-
-$[](/assets/imgs/screenshot.mp4)
+- `npm run test`)
 
 ## Questions?
 

@@ -81,14 +81,11 @@ function writeToFile(fileName, data) {
 function init() {
     // prompt and process
     // return inquirer.prompt(questions)
-    return inquirer.prompt([])
+    return inquirer.prompt(questions)
 }
 
 // Function call to main app
 init()
-    .then((responses) => {
-        console.log(responses)
-        return generateMarkdown(responses)
-    })
+    .then((responses) => generateMarkdown(responses))
     .then((strTxt) => writeToFile(fileName, strTxt))
     .catch((err) => console.log(err));
