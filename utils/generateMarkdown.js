@@ -1,29 +1,9 @@
 const licenses = require('../assets/licenses/license')
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-renderLicenseBadge = (license) => {
-  console.log(license)
-  console.log(`\n![${license}](https://img.shields.io/badge/License-${license}-green.svg)`)
-  return (license || license == 'None') ? '' :  `\n![${license}](https://img.shields.io/badge/License-${license}-green.svg)`; 
-}
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {
-  let licenseTxt = [
-    `${license}`
-  ].join('')
-
-  return licenseTxt;
-}
-
-// TODO: Create a function to generate markdown for README
+// generaters markdown file
 function generateMarkdown(data) {
-  // testData
+  // format string with desired output
+
   let testData = {
     'title': 'Generate ReadME.md',
     'description': 'Purpose of this project is to generate a well written README.md for professional use',
@@ -35,8 +15,8 @@ function generateMarkdown(data) {
     'username': 'erickjavalos',
     'email': 'avaloserick97@gmail.com'
   }
-  data = testData
 
+  data = testData
   let strText = [
     `# ${data.title}\n\n`,
     `${licenses[data.license].badge}\n\n`,
@@ -58,7 +38,9 @@ function generateMarkdown(data) {
     `## Contributing\n\n`,
     `${data.contribution}\n\n`,
     `## Tests\n\n`,
-    `$[TODO TESTS](${data.test})\n\n`,
+    `To run tests, run following command:\n`,
+    '- `npm run test`\n\n',
+    `$[](${data.test})\n\n`,
     `## Questions?\n\n`,
     `Do you have questions?\n`,
     `- [Email](mailto:${data.email})\n`,

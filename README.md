@@ -31,7 +31,10 @@ Please email me via my email below!
 
 ## Tests
 
-$[TODO TESTS](/assets/imgs/screenshot.mp4)
+To run tests, run following command:
+- `npm run test`
+
+$[](/assets/imgs/screenshot.mp4)
 
 ## Questions?
 
