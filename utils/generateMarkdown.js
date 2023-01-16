@@ -1,3 +1,4 @@
+const licenses = require('../assets/licenses/license')
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {}
@@ -57,7 +58,7 @@ function generateMarkdown(data) {
     `## Questions?\n\n`,
     `Do you have questions? [Email me here!](mailto:${data.email})\n\n`,
     `## License\n\n`,
-    `${renderLicenseSection(data.license)}`
+    `[${data.license}](${renderLicenseSection(licenses[data.license])})`
   ].join('')
   
   return strText

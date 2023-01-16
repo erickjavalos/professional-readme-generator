@@ -39,4 +39,4 @@ Do you have questions? [Email me here!](mailto:avaloserick97@gmail.com)
 
 ## License
 
-MIT
+[MIT](/assets/licenses/MIT.txt)
