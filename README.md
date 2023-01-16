@@ -18,7 +18,7 @@ Purpose of this project is to generate a well written README.md for professional
 ## Installation
 
 To install, please follow steps below
-- To install, cd into professional-readme-generator and run npm install. A node_modules folder will be generated with all the required libraries.
+- npm install
 
 ## Usage
 

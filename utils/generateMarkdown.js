@@ -22,7 +22,7 @@ function generateMarkdown(data) {
   let testData = {
     'title': 'Generate ReadME.md',
     'description': 'Purpose of this project is to generate a well written README.md for professional use',
-    'install': 'To install, cd into professional-readme-generator and run npm install. A node_modules folder will be generated with all the required libraries.',
+    'install': 'npm install',
     'usage': `node index.js`,
     'contribution': 'Please email me via my email below!',
     'test': '/assets/imgs/screenshot.mp4',
