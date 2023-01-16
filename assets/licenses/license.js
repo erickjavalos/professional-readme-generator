@@ -14,6 +14,10 @@ let licenses = {
         "link" : "https://www.apache.org/licenses/LICENSE-2.0.txt",
         "badge": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
     },
+    "None": {
+        "link" : "",
+        "badge": "",
+    }
 }
 
 module.exports = licenses;

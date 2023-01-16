@@ -22,7 +22,7 @@ function generateMarkdown(data) {
     `## Contributing\n\n`,
     `${data.contribution}\n\n`,
     `## Tests\n\n`,
-    `${data.test})\n\n`,
+    `${data.test}\n\n`,
     `## Questions?\n\n`,
     `Do you have questions?\n`,
     `- [Email](mailto:${data.email})\n`,

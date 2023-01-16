@@ -5,6 +5,8 @@ const generateMarkdown = require('./utils/generateMarkdown.js')
 // GLOBAL VARIABLES
 // ****************************************************************************
 
+const fileName = "README.md"
+
 // Questions to prompt user
 const questions = [
     {
@@ -55,8 +57,6 @@ const questions = [
       },
 ];
 
-const fileName = "README.md"
-
 // ****************************************************************************
 // Helper Functions
 // ****************************************************************************
@@ -72,20 +72,19 @@ function writeToFile(fileName, data) {
                     
 }
 
-
-
 // ****************************************************************************
 // initialize
 // ****************************************************************************
 
 function init() {
     // prompt and process
-    // return inquirer.prompt(questions)
     return inquirer.prompt(questions)
 }
 
 // Function call to main app
 init()
+    // generate and get string output
     .then((responses) => generateMarkdown(responses))
+    // write string to filesystem
     .then((strTxt) => writeToFile(fileName, strTxt))
     .catch((err) => console.log(err));
