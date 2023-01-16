@@ -1,4 +1,6 @@
 const inquirer = require('inquirer');
+const fs = require('fs')
+const generateMarkdown = require('./utils/generateMarkdown.js')
 // ****************************************************************************
 // GLOBAL VARIABLES
 // ****************************************************************************
@@ -35,31 +37,58 @@ const questions = [
         message: 'Enter test instruction:',
         name: 'test',
       },
+      {
+          type: 'list',
+          name: 'license',
+          message: 'Choose a license:',
+          choices: ['MIT', 'Apache_2.0', 'None']
+      },
+      {
+        type: 'input',
+        message: 'Enter Github username:',
+        name: 'username',
+      },
+      {
+        type: 'input',
+        message: 'Enter email address:',
+        name: 'email',
+      },
 ];
 
+const fileName = "README.md"
 
+// ****************************************************************************
+// Helper Functions
+// ****************************************************************************
 
-
-// TODO: Create an array of questions for user input
-// fileName = "README.md"
-
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// writes prompted answers to filename
+function writeToFile(fileName, data) {
+    
+    // write to filename 
+    fs.writeFile(fileName, data, 
+        (err) => err ? console.log(err) : console.log("Successfully wrote to README.md")
+    ) 
+                
+                    
+}
 
 
 
 // ****************************************************************************
-// MAIN
+// initialize
 // ****************************************************************************
 
-function main() {
+function init() {
     // prompt and process
-    inquirer
-        .prompt(questions)
-        .then((response) =>
-            console.log(response)
-    );
+    // return inquirer.prompt(questions)
+    return inquirer.prompt([])
 }
 
 // Function call to main app
-main();
+init()
+    .then((responses) => {
+        console.log(responses)
+        return generateMarkdown(responses)
+    })
+    .then((strTxt) => writeToFile(fileName, strTxt))
+    .catch((err) => console.log(err));
