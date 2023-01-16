@@ -27,7 +27,7 @@ function generateMarkdown(data) {
     'usage': `node index.js`,
     'contribution': 'Please email me via my email below!',
     'test': '/assets/imgs/screenshot.mp4',
-    'license': 'Apache_2.0',
+    'license': 'GNU GPLv3',
     'username': 'erickjavalos',
     'email': 'avaloserick97@gmail.com'
   }

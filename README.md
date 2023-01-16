@@ -39,4 +39,4 @@ Do you have questions? [Email me here!](mailto:avaloserick97@gmail.com)
 
 ## License
 
-[Apache_2.0](http://www.apache.org/licenses/)
+[GNU GPLv3](/assets/licenses/GNU.txt)

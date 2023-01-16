@@ -3,9 +3,8 @@ const year = new Date().getFullYear()
 
 let licenses = {
     "MIT" : "/assets/licenses/MIT.txt",
-    "Apache_2.0" : "http://www.apache.org/licenses/"
-
-
+    "GNU GPLv3" : "/assets/licenses/GNU.txt",
+    "Apache_2.0" : " https://www.apache.org/licenses/LICENSE-2.0.txt",
 }
 
 module.exports = licenses;
