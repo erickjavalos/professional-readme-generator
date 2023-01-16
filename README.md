@@ -37,7 +37,7 @@ Please email me via my email below!
 
 Do you have questions?
 - [Email](mailto:avaloserick97@gmail.com)
-- [Github](https://github.com/avaloserick97@gmail.com)
+- [Github](https://github.com/erickjavalos)
 
 ## License
 

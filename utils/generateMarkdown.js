@@ -62,7 +62,7 @@ function generateMarkdown(data) {
     `## Questions?\n\n`,
     `Do you have questions?\n`,
     `- [Email](mailto:${data.email})\n`,
-    `- [Github](https://github.com/${data.email})\n\n`,
+    `- [Github](https://github.com/${data.username})\n\n`,
     `## License\n\n`,
     `[${data.license}](${licenses[data.license].link})`
   ].join('')
