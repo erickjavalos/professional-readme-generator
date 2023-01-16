@@ -1,5 +1,7 @@
 # Generate ReadME.md
 
+undefined
+
 ## Description
 
 Purpose of this project is to generate a well written README.md for professional use
@@ -19,9 +21,9 @@ To install, cd into professional-readme-generator and run npm install. A node_mo
 
 ## Usage
 
-To run, simply call 'npm install'
+To run, simply call '''node index.js'''
 
-## How to Contribute
+## Contributing
 
 Please email me via my email below!
 
