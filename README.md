@@ -39,4 +39,4 @@ Do you have questions? [Email me here!](mailto:avaloserick97@gmail.com)
 
 ## License
 
-[MIT](/assets/licenses/MIT.txt)
+[Apache_2.0](http://www.apache.org/licenses/)
