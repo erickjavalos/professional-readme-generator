@@ -17,11 +17,11 @@ The purpose of this generator is to prompt the developer(s) a series of question
 
 ## Installation
 
-npm install
+`npm install`
 
 ## Usage
 
-node index.js
+`node index.js`
 
 ## Contributing
 
@@ -29,7 +29,7 @@ Please email me via the email below!
 
 ## Tests
 
-npm run test
+`npm run test`
 
 [Video Demo](https://drive.google.com/file/d/1vmDVRGkbLTarKIqeSwHXwDRAuKflL9Da/view?usp=sharing)
 
