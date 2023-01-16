@@ -29,6 +29,8 @@ Please email me via the email below!
 
 npm run test
 
+[Video](https://drive.google.com/file/d/1vmDVRGkbLTarKIqeSwHXwDRAuKflL9Da/view?usp=sharing)
+
 ## Questions?
 
 Do you have questions?
