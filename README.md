@@ -23,7 +23,7 @@ To install, please follow steps below:
 ## Usage
 
 To run, please follow steps below:
--node index.js
+- node index.js
 
 ## Contributing
 
