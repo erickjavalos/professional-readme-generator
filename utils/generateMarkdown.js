@@ -31,7 +31,7 @@ function generateMarkdown(data) {
     'usage': `node index.js`,
     'contribution': 'Please email me via my email below!',
     'test': '/assets/imgs/screenshot.mp4',
-    'license': 'Apache_2.0',
+    'license': 'MIT',
     'username': 'erickjavalos',
     'email': 'avaloserick97@gmail.com'
   }
@@ -58,7 +58,7 @@ function generateMarkdown(data) {
     `## Contributing\n\n`,
     `${data.contribution}\n\n`,
     `## Tests\n\n`,
-    `${data.test}\n\n`,
+    `$[TODO TESTS](${data.test})\n\n`,
     `## Questions?\n\n`,
     `Do you have questions?\n`,
     `- [Email](mailto:${data.email})\n`,

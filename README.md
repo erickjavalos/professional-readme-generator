@@ -1,6 +1,6 @@
 # Generate ReadME.md
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
@@ -31,7 +31,7 @@ Please email me via my email below!
 
 ## Tests
 
-/assets/imgs/screenshot.mp4
+$[TODO TESTS](/assets/imgs/screenshot.mp4)
 
 ## Questions?
 
@@ -41,4 +41,4 @@ Do you have questions?
 
 ## License
 
-[Apache_2.0](https://www.apache.org/licenses/LICENSE-2.0.txt)
+[MIT](/assets/licenses/MIT.txt)
