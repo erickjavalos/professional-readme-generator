@@ -1,6 +1,6 @@
 # Generate ReadME.md
 
-undefined
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Description
 
@@ -35,8 +35,10 @@ Please email me via my email below!
 
 ## Questions?
 
-Do you have questions? [Email me here!](mailto:avaloserick97@gmail.com)
+Do you have questions?
+- [Email](mailto:avaloserick97@gmail.com)
+- [Github](https://github.com/avaloserick97@gmail.com)
 
 ## License
 
-[GNU GPLv3](/assets/licenses/GNU.txt)
+[Apache_2.0](https://www.apache.org/licenses/LICENSE-2.0.txt)

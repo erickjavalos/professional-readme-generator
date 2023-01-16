@@ -1,7 +1,11 @@
 const licenses = require('../assets/licenses/license')
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+renderLicenseBadge = (license) => {
+  console.log(license)
+  console.log(`\n![${license}](https://img.shields.io/badge/License-${license}-green.svg)`)
+  return (license || license == 'None') ? '' :  `\n![${license}](https://img.shields.io/badge/License-${license}-green.svg)`; 
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -27,7 +31,7 @@ function generateMarkdown(data) {
     'usage': `node index.js`,
     'contribution': 'Please email me via my email below!',
     'test': '/assets/imgs/screenshot.mp4',
-    'license': 'GNU GPLv3',
+    'license': 'Apache_2.0',
     'username': 'erickjavalos',
     'email': 'avaloserick97@gmail.com'
   }
@@ -35,7 +39,7 @@ function generateMarkdown(data) {
 
   let strText = [
     `# ${data.title}\n\n`,
-    `${renderLicenseBadge(data.license)}\n\n`,
+    `${licenses[data.license].badge}\n\n`,
     `## Description\n\n`,
     `${data.description}\n\n`,
     `## Table of Contents\n\n`,
@@ -56,9 +60,11 @@ function generateMarkdown(data) {
     `## Tests\n\n`,
     `${data.test}\n\n`,
     `## Questions?\n\n`,
-    `Do you have questions? [Email me here!](mailto:${data.email})\n\n`,
+    `Do you have questions?\n`,
+    `- [Email](mailto:${data.email})\n`,
+    `- [Github](https://github.com/${data.email})\n\n`,
     `## License\n\n`,
-    `[${data.license}](${renderLicenseSection(licenses[data.license])})`
+    `[${data.license}](${licenses[data.license].link})`
   ].join('')
   
   return strText
