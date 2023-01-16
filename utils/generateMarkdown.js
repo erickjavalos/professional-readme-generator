@@ -55,7 +55,7 @@ function generateMarkdown(data) {
     `## Tests\n\n`,
     `${data.test}\n\n`,
     `## Questions?\n\n`,
-    `[Email Me!](mailto:${data.email})\n\n`,
+    `Do you have questions? [Email me here!](mailto:${data.email})\n\n`,
     `## License\n\n`,
     `${renderLicenseSection(data.license)}`
   ].join('')

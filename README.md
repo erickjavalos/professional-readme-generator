@@ -35,7 +35,7 @@ Please email me via my email below!
 
 ## Questions?
 
-[Email Me!](mailto:avaloserick97@gmail.com)
+Do you have questions? [Email me here!](mailto:avaloserick97@gmail.com)
 
 ## License
 
