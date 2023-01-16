@@ -1,6 +1,6 @@
 # Professional README generator
 
-
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Description
 
@@ -17,11 +17,11 @@ The purpose of this generator is to prompt the developer(s) a series of question
 
 ## Installation
 
-`npm install`
+npm install
 
 ## Usage
 
-`node index.js`
+node index.js
 
 ## Contributing
 
@@ -29,9 +29,7 @@ Please email me via the email below!
 
 ## Tests
 
-`npm run test`
-
-[Video Demo](https://drive.google.com/file/d/1vmDVRGkbLTarKIqeSwHXwDRAuKflL9Da/view?usp=sharing)
+npm run test
 
 ## Questions?
 
@@ -41,4 +39,4 @@ Do you have questions?
 
 ## License
 
-[None]()
+[Apache_2.0](https://www.apache.org/licenses/LICENSE-2.0.txt)

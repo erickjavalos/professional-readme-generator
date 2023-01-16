@@ -1,11 +1,17 @@
 const licenses = require('../assets/licenses/license')
 
+function renderLicenseBadge(license){
+  return (license == '' || license=='None') ? '' : `${licenses[license].badge}\n\n`
+}
+function renderLicenseSection(license) {
+  return (license == '' || license=='None') ? '' : `[${license}](${licenses[license].link})`
+}
 // generaters markdown file
 function generateMarkdown(data) {
   // build text of readme
   let strText = [
     `# ${data.title}\n\n`,
-    `${licenses[data.license].badge}\n\n`,
+    `${renderLicenseBadge(data.license)}`,
     `## Description\n\n`,
     `${data.description}\n\n`,
     `## Table of Contents\n\n`,
@@ -28,7 +34,7 @@ function generateMarkdown(data) {
     `- [Email](mailto:${data.email})\n`,
     `- [Github](https://github.com/${data.username})\n\n`,
     `## License\n\n`,
-    `[${data.license}](${licenses[data.license].link})`
+    `${renderLicenseSection(data.license)}`
   ].join('')
   
   return strText
