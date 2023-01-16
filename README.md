@@ -17,12 +17,13 @@ Purpose of this project is to generate a well written README.md for professional
 
 ## Installation
 
-To install, please follow steps below
+To install, please follow steps below:
 - npm install
 
 ## Usage
 
-node index.js
+To run, please follow steps below:
+-node index.js
 
 ## Contributing
 

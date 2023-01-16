@@ -49,7 +49,7 @@ function generateMarkdown(data) {
     `- ${data.install}\n\n`,
     `## Usage\n\n`,
     `To run, please follow steps below:\n`,
-    `${data.usage}\n\n`,
+    `-${data.usage}\n\n`,
     `## Contributing\n\n`,
     `${data.contribution}\n\n`,
     `## Tests\n\n`,
